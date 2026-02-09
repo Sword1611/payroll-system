@@ -1,7 +1,17 @@
 public class Employee {
     private int employeeId;
+    private String employeeName;
     private double hourlyRate;
     private int weeklyTime;
+
+    public Employee(int employeeId, String employeeName) {
+        this.employeeId = employeeId;
+        this.employeeName = employeeName;
+    }
+
+    public String getEmployeeName() {
+        return employeeName;
+    }
 
     public int getEmployeeId() {
         return employeeId;
