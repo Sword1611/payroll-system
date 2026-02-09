@@ -1,5 +1,8 @@
+import java.util.Scanner;
+
 public class PayrollSystem {
     public static void main(String[] args) {
-        System.out.println("Hello Git!");
+        Scanner scanner = new Scanner(System.in);
+
     }
 }
